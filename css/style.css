@@ -43,7 +43,8 @@
 html {
   font-family: sans-serif;
   line-height: 1.15;
-  -webkit-text-s/* Global Styles */
+}
+/* Global Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -100,8 +101,7 @@ footer {
   color: #fff;
   padding: 10px;
   text-align: center;
-}ize-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+}
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
@@ -1619,10 +1619,11 @@ pre {
     display: block;
     width: 100%;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: -ms-autohiding-scrollbar; }
-    .table-responsive-lg > .table-bordered {
-      border: 0; } }
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+   }
+  .table-responsive-lg > .table-bordered {
+      border: 0; } 
+  }
 
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
