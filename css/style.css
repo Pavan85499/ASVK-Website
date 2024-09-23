@@ -44,6 +44,8 @@ html {
   font-family: sans-serif;
   line-height: 1.15;
 }
+
+
 /* Global Styles */
 body {
   font-family: Arial, sans-serif;
@@ -271,11 +273,7 @@ button,
 select {
   text-transform: none; }
 
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button; }
+
 
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
@@ -289,12 +287,6 @@ input[type="checkbox"] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0; }
-
-input[type="date"],
-input[type="time"],
-input[type="datetime-local"],
-input[type="month"] {
-  -webkit-appearance: listbox; }
 
 textarea {
   overflow: auto;
@@ -326,7 +318,7 @@ progress {
 
 [type="search"] {
   outline-offset: -2px;
-  -webkit-appearance: none; }
+}
 
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -1599,7 +1591,6 @@ pre {
     display: block;
     width: 100%;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar; }
     .table-responsive-sm > .table-bordered {
       border: 0; } }
@@ -1609,7 +1600,6 @@ pre {
     display: block;
     width: 100%;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar; }
     .table-responsive-md > .table-bordered {
       border: 0; } }
@@ -1630,7 +1620,6 @@ pre {
     display: block;
     width: 100%;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar; }
     .table-responsive-xl > .table-bordered {
       border: 0; } }
@@ -1639,7 +1628,6 @@ pre {
   display: block;
   width: 100%;
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar; }
   .table-responsive > .table-bordered {
     border: 0; }
@@ -4036,9 +4024,7 @@ input[type="button"].btn-block {
     -webkit-column-count: 3;
     column-count: 3;
     -webkit-column-gap: 1.25rem;
-    column-gap: 1.25rem;
-    orphans: 1;
-    widows: 1; }
+    column-gap: 1.25rem; }
     .card-columns .card {
       display: inline-block;
       width: 100%; } }
@@ -8015,13 +8001,8 @@ a.text-dark:hover, a.text-dark:focus {
   tr,
   img {
     page-break-inside: avoid; }
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3; }
-  h2,
-  h3 {
+  
+  h2,h3 {
     page-break-after: avoid; }
   @page {
     size: a3; }
@@ -9386,7 +9367,6 @@ textarea.form-control {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
-  -webkit-backface-visibility: hidden;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
