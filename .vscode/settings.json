@@ -2,5 +2,6 @@
     "Codegeex.CommitMessage.LanguagePreference": "English",
     "Codegeex.Chat.LanguagePreference": "English",
     "Codegeex.CommitMessageStyle": "Default",
-    "Codegeex.SidebarUI.LanguagePreference": "English"
+    "Codegeex.SidebarUI.LanguagePreference": "English",
+    "liveServer.settings.port": 5501
 }
