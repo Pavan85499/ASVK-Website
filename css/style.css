@@ -8637,8 +8637,10 @@ h1, h2, h3, h4, h5,
   margin-bottom: 40px;
  }
   .car-wrap .img {
-    height: 400px;
+    height: 300px;
     width:100%;
+    display: block;
+    object-fit: cover; 
     background-size: cover;
     }
   .car-wrap .price-wrap {
